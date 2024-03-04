@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wev devloper</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            box-sizing: border-box;
+        }
+        section{
+            height: 100vh;
+        }
+        /* #home{
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(/img/background.jpg);
+        } */
+       header li{
+        float: left;
+        padding: 10px;
+       }
+       header{
+        border: 0px solid red;
+        height: 100px;
+        position: relative;
+        bottom: 1205px;
+       }
+       header li a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-style: italic;
+        position: relative;
+       left: 900px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header img{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        position: relative;
+        right: 300px;
+    }
+    #home h1{
+        color: white;
+        position: relative;
+        bottom: 1100px;
+        text-align: center;
+        font-size: 40px;
+    }
+    #home video{
+        z-index: -1;
+        height: 1200px;
+        width: 1349px;
+        position: relative;
+        bottom: 270px;
+    }
+    #home p{
+        position: relative;
+        bottom: 1100px;
+        color: green;
+        text-align: center;
+    }
+    .logo li{
+        list-style: none;
+        float: left;
+        padding: 10px;
+    }
+    .logo{
+        position: relative;
+        bottom: 900px;
+        padding-left: 550px;
+    }
+    .logo img{
+        
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+    }
+    #services{
+        background-color: black;
+        z-index: -1;
+    }
+    .box1{
+        border: 0px solid blue;
+        height: 200px;
+        width: 350px;
+        position: relative;
+        top: 80px;
+        margin-left: 30px;
+    }
+    .box2{
+        border: 0px solid blue;
+        height: 200px;
+        width: 350px;
+        position: relative;
+        bottom: 120px;
+        margin-left: 500px;
+    }
+    .box3{
+        border: 0px solid blue;
+        height: 200px;
+        width: 350px;
+        position: relative;
+        bottom: 320px;
+        margin-left: 950px;
+    }
+    .box4{
+        border: 0px solid blue;
+        height: 200px;
+        width: 350px;
+        position: relative;
+         bottom: 280px;
+        margin-left: 30px;
+    }
+    .box5{
+        border: 0px solid blue;
+        height: 200px;
+        width: 350px;
+        position: relative;
+        bottom: 480px;
+        margin-left: 500px;
+    }
+    .box6{
+        border: 0px solid blue;
+        height: 200px;
+        width: 350px;
+        position: relative;
+        bottom: 680px;
+        margin-left: 950px;
+    }
+    .box1 img{
+        height: 60px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .box1 h1{
+        font-size: 25px;
+        color: white;
+    }
+    .box1 p{
+        color: white;
+    }
+    .box1 a{
+        color: green;
+        /* text-decoration: none;
+        border: 1px solid blue;
+        background-color: aqua; */
+        top: 10px;
+        position: relative;
+        left: 20px;
+    }
+    .box2 img{
+        height: 60px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .box2 h1{
+        font-size: 25px;
+        color: white;
+    }
+    .box2 p{
+        color: white;
+    }
+    .box2 a{
+        color: green;
+        /* text-decoration: none; */
+        /* border: 1px solid blue; */
+        /* background-color: aqua; */
+        top: 10px;
+        position: relative;
+        left: 30px;
+    }
+    .box3 img{
+        height: 60px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .box3 h1{
+        font-size: 25px;
+        color: white;
+    }
+    .box3 p{
+        color: white;
+    }
+    .box3 a{
+        color: green;
+        /* text-decoration: none; */
+        /* border: 1px solid blue; */
+        /* background-color: aqua; */
+        top: 10px;
+        position: relative;
+        left: 30px;
+    }
+    .box4 img{
+        height: 60px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .box4 h1{
+        font-size: 25px;
+        color: white;
+    }
+    .box4 p{
+        color: white;
+    }
+    .box4 a{
+        color: green;
+        /* text-decoration: none; */
+        /* border: 1px solid blue; */
+        /* background-color: aqua; */
+       bottom: 20px;
+        position: relative;
+        left: 30px;
+    }
+    .box5 img{
+        height: 60px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .box5 h1{
+        font-size: 25px;
+        color: white;
+    }
+    .box5 p{
+        color: white;
+    }
+    .box5 a{
+        color: green;
+        /* text-decoration: none; */
+        /* border: 1px solid blue; */
+        /* background-color: aqua; */
+       bottom: -10px;
+        position: relative;
+        left: 30px;
+    }
+    .box6 img{
+        height: 60px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .box6 h1{
+        font-size: 25px;
+        color: white;
+    }
+    .box6 p{
+        color: white;
+    }
+    .box6 a{
+        color: green;
+        /* text-decoration: none; */
+        /* border: 1px solid blue; */
+        /* background-color: aqua; */
+       bottom: -10px;
+        position: relative;
+        left: 30px;
+    }
+    form {
+        position: relative;
+        top: 150px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        label, input, textarea {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #contact{
+            background-image: url(/img/cb.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #contact h1{
+            text-align: center;
+            font-size: 30px;
+            position: relative;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <section id="home">
+        <video autoplay muted loop id="myVideo">
+            <source src="img\pexels_videos_1943483 (2160p).mp4.crdownload" type="video/mp4">
+          </video>
+   <header>
+    <img src="/img/web.jpg" alt="">
+ <li><a href="#home">HOME</a></li>
+ <li><a href="#services">SERVICES</a></li>
+ <li><a href="#contact">CONTACT</a></li>
+   </header>
+   <h1>Web <span style="color: green;">Designer</span> Company</h1>
+   <p>Hello i am uplakshy pathak and i am full stack devloper and i completed my fullstack course by Livewere bareilly and <br>and i expert in front-end and back-end devlopment both are</p>
+   <div class="logo">
+    <li><a href="#"><img src="/img/facebook.png" alt=""></a></li>
+    <li><a href="#"><img src="/img/instagram-icon_1057-2227.avif" alt=""></a></li>
+    <li><a href="#"><img src="/img/youtube.jpg" alt=""></a></li>
+    <li><a href="#"><img src="/img/link.png" alt=""></a></li>
+   </div> 
+   </section>
+    <section id="services">
+     <div class="box1">
+     <img src="/img/5555555555.avif" alt="">
+     <h1>Seo Optimize</h1>
+     <p> a set of processes aimed at improving a website's visibility in search engines, like Google, with the goal of getting more organic traffic</p> 
+     <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide#:~:text=SEO%E2%80%94short%20for%20search%20engine,site%20through%20a%20search%20engine.">Learn SEO</a>
+     </div>
+     <div class="box2">
+     <img src="/img/wd.jpg" alt="">
+     <h1>Web devlopment</h1>
+     <p>Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). </p>
+     <a href="https://www.codecademy.com/learn/paths/web-development">Learn web devlopment</a>
+     </div>
+     <div class="box3">
+     <img src="/img/marketing.png" alt="">
+     <h1>Marketing</h1>
+     <p>Marketing refers to activities a company undertakes to promote the buying or selling of a product or service</p>
+     <a href="https://www.investopedia.com/terms/m/marketing.asp#:~:text=our%20editorial%20policies-,What%20Is%20Marketing%3F,to%20consumers%20or%20other%20businesses.">Marketing</a>
+     </div>
+     <div class="box4">
+     <img src="/img/ana.png" alt="">
+     <h1>Computer Analysis</h1>
+     <p>Computer analysis determines the frequency and power (amplitude) components in the EGG signal.</p>
+     <a href="https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/computer-analysis#:~:text=Computer%20analysis%20determines%20the%20frequency,be%20quantified%20in%20clinical%20electrogastrography.">Computer Analysis</a>
+     </div>
+     <div class="box5">
+      <img src="/img/case.jpg" alt="">
+      <h1>Case Study</h1>
+      <p>A web design case study is a visual and textual analysis of a successful web platform, landing page, website design, or other web-based product.</p>
+      <a href="https://webflow.com/blog/write-the-perfect-case-study#:~:text=A%20web%20design%20case%20study,or%20other%20web%2Dbased%20product.">Case study</a>
+     </div>
+     <div class="box6">
+     <img src="/img/quality.jpg" alt="">
+     <h1>Quality Analysis</h1>
+     <p>The article looks at the various types of quality management tools in detail. Quality plays a very important role in the success of an organization.</p>
+     <a href="https://managementstudyguide.com/total-quality-management-articles.htm">Quality analysis</a>
+     </div>
+    </section>
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <form action="process_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
